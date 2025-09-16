@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Abhishek Kumar, Fullstack Python Developer">
+    <title>Abhishek Kumar</title>
+    <link rel="stylesheet" href="/Thankyou/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Abhishek <span>Kumar</span></div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburg" onclick="hamburg()">☰</div>
+            <div class="cancel" onclick="cancel()">✖</div>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="main-container">
+        <div class="content">
+            <h1>Hey I'm <span>Abhishek</span></h1>
+            <div class="typewriter">
+                <div class="typewriter-text"></div>
+            </div>
+            <p>I am a Fullstack Python Developer. Looking for an opportunity to apply my skills in a real-world software
+                development environment, contribute to
+                impactful projects, and grow as a developer.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/abhishekfullstack/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/rao-abhi2203"><i class="fab fa-github"></i></a>
+            </div>
+            <button onclick="window.location.href='ramjanali resume.pdf'">Download Resume</button>
+        </div>
+        <div class="image">
+            <img src="portfoilio_image.png" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="section-content">
+            <p>I am an enthusiastic and highly motivated aspiring Python Full Stack Developer and AI/ML enthusiast, with
+                a strong foundation in front-end and back-end technologies including Python, Django, React, JavaScript,
+                BootStrap, HTML, CSS, SQL, Oracle DB,
+                and GitHub.
+
+                Currently enhancing my skills through a Full Stack Development program, I am passionate about building
+                efficient, user-friendly applications and exploring the exciting world of Artificial Intelligence and
+                Machine Learning.
+
+                I have completed internships at CodSoft, where I worked on practical projects that strengthened my
+                real-world development experience.
+
+                With a strong problem-solving mindset and a commitment to continuous learning, I am actively seeking
+                full-time opportunities where I can contribute, grow, and make an impact. Let’s connect and collaborate!
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="section-content">
+            <p>Skills Reflects Our Knowledge</p>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span>Python</span>
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="skill-item">
+                    <span>SQL</span>
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="skill-item">
+                    <span>HTML</span>
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="skill-item">
+                    <span>CSS</span>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="skill-item">
+                    <span>C</span>
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>My Education</h2>
+        <p>My Academic Journey</p>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>BCA</h3>
+                    <p>Banglore University</p>
+                    <p>2021 – 2024 (8.3 CGPA)</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Intermediate</h3>
+                    <p>BSEB</p>
+                    <p>2019 – 2021 (67.60%)</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Matriculation</h3>
+                    <p>CBSE</p>
+                    <p>2018 – 2019 (79.20%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>My Services</h2>
+        <div class="section-content">
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Fullstack Development</h3>
+                    <p>Building responsive and dynamic websites using modern technologies.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Creating insights from data using Power BI.</p>
+                </div>
+                <!-- <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>ML Projects</h3>
+                    <p>Developing predictive models like Customer Churn Prediction.</p>
+                </div> -->
+                <div class="service-item">
+                    <i class="fas fa-pen"></i>
+                    <h3>Design</h3>
+                    <p>Creating visual designs for web and data dashboards using Figma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="section-content">
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="shopnest-image.png"
+                        alt="E-Commerce Platform">
+                    <div class="project-content">
+                        <h3>ShopNest</h3>
+                        <p>A full-stack e-commerce site with user authentication and payment integration.</p>
+                        <div class="tech-stack">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/rao-abhi2203/shopnest" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <span class="bracket left"></span>
+                    <span class="bracket right"></span>
+                </div>
+                <div class="project-item">
+                    <img src="reelbite-image.png"
+                        alt="food-reel App">
+                    <div class="project-content">
+                        <h3>BiteReel</h3>
+                        <p>A MERN project for food enthusiasts to share and discover foods in reels.</p>
+                        <div class="tech-stack">
+                            <i class="fab fa-python"></i>
+                            <i class="fas fa-database"></i>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/rao-abhi2203/BiteReel" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <span class="bracket left"></span>
+                    <span class="bracket right"></span>
+                </div>
+                <div class="project-item">
+                    <img src="chatbot.jpg"
+                        alt="Chatbot AI">
+                    <div class="project-content">
+                        <h3>Chatbot AI</h3>
+                        <p>GenAI-powered chatbot using Django framework.</p>
+                        <div class="tech-stack">
+                            <i class="fab fa-python"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://genaichatbot-cubt.onrender.com" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <span class="bracket left"></span>
+                    <span class="bracket right"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me!</h2>
+        <div class="section-content">
+            <form class="contact-form" action="https://formsubmit.co/abhiyey@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <!-- Hidden inputs -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="./thankyou.html">
+                <!-- Change to your site -->
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Created By Abhishek © 2025. All Rights Reserved</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="/Thankyou/script.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        function hamburg() {
+            document.querySelector('.dropdown').style.transform = 'translateY(10vh)';
+        }
+
+        function cancel() {
+            document.querySelector('.dropdown').style.transform = 'translateY(-500px)';
+        }
+
+        // Accordion functionality
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const isOpen = content.style.maxHeight;
+                document.querySelectorAll('.accordion-content').forEach(c => c.style.maxHeight = null);
+                document.querySelectorAll('.accordion-toggle').forEach(toggle => toggle.textContent = '+');
+                if (!isOpen) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    header.querySelector('.accordion-toggle').textContent = '-';
+                }
+            });
+        });
+
+        // Scroll animation for accordion items
+        const accordionObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const accordionItems = document.querySelectorAll('.accordion-item');
+        accordionItems.forEach(item => {
+            accordionObserver.observe(item);
+        });
+
+        // Back to Top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Slide-in animation for service items
+        const serviceObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('slide-in');
+                    }, index * 200);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const serviceItems = document.querySelectorAll('.service-item');
+        serviceItems.forEach(item => {
+            serviceObserver.observe(item);
+        });
+
+        // Brackets animation for project items
+        const projectObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('animate');
+                    }, index * 300); // Staggered delay of 300ms per item
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const projectItems = document.querySelectorAll('.project-item');
+        projectItems.forEach(item => {
+            projectObserver.observe(item);
+        });
+    </script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'96eff0e05af2ff9d',t:'MTc1NTE2OTE0Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'96f026a54e9ec617',t:'MTc1NTE3MTM0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
+</html>
